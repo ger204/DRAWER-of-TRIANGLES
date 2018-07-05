@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
   int h;
-  std::cout << "INGRESE LA ALTURA y EL TRIANGLE:";
+  std::cout << "INGRESE LA ALTURA y LA BASE DEL TRIANGLE:";
   std::cin >> h;
 
   for (int i = 1; i <= h; i++) {
