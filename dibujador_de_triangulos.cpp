@@ -3,9 +3,9 @@ using namespace std;
 int main() {
   int h;
   std::cout << "INGRESE LA ALTURA y LA BASE DEL TRIANGLE:";
-  std::cin >> h;
+  std::cin >> bh;
 
-  for (int i = 1; i <= h; i++) {
+  for (int i = 1; i <= bh; i++) {
     for (int e = 1; e <= i; e++) {
       std::cout << "*";
     }
