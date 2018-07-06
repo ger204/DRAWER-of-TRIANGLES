@@ -12,6 +12,7 @@ int main() {
   std::cin >> b;
   std::cout << "INGRESE LA ALTURA: ";
   std::cin >> h;
+//¡ATENCIÓN!
 //Lo que viene a continuación esta mal
 while (c<b) {
   for (int i = 1; i == i; i++) {
