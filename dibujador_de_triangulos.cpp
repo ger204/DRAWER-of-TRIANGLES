@@ -1,14 +1,31 @@
 #include <iostream>
 using namespace std;
+/*
+YO HE ENCONTRADO ESTE PROBLEMA IMPOSIBELE DESDE
+  EL CONECIMINTO QUE ACTUALMENTE TENGO; SI TU SABES
+  COMO RESOLVERLO PORFAVOR DEJAMELO SABER
+  GRÁCIAS
+  */
 int main() {
-  int h,b;
+  int h,b,c=0;
   std::cout << "INGRESE LA BASE:";
   std::cin >> b;
-  std::cout << "INGRESE LA ALTURA";
+  std::cout << "INGRESE LA ALTURA: ";
   std::cin >> h;
+//Lo que viene a continuación esta mal
+while (c<b) {
+  for (int i = 1; i == i; i++) {
+    for (int e = 1; e <= i; e++) {
+      std::cout << "*";
+    }
+    std::cout<< '\n';
+    c++;
+  }
+
+}
 
 /*
-Amb una sola dada (unica per base i altura)
+Con un solo dato (unico para base y altura)
   for (int i = 1; i <= h; i++) {
     for (int e = 1; e <= i; e++) {
       std::cout << "*";
