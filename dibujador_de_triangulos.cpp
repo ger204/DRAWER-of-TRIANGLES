@@ -2,7 +2,7 @@
 using namespace std;
 /*
 YO HE ENCONTRADO ESTE PROBLEMA IMPOSIBELE DESDE
-  EL CONECIMINTO QUE ACTUALMENTE TENGO; SI TU SABES
+  EL CONOCIMIENTO QUE ACTUALMENTE TENGO; SI TU SABES
   COMO RESOLVERLO PORFAVOR DEJAMELO SABER
   GRÁCIAS
   */
@@ -14,7 +14,7 @@ int main() {
   std::cin >> h;
 //¡ATENCIÓN!
 //Lo que viene a continuación esta mal
-while (c<b) {
+if (c<b) {
   for (int i = 1; i == i; i++) {
     for (int e = 1; e <= i; e++) {
       std::cout << "*";
